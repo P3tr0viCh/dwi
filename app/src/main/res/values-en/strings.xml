@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Счётчик дней</string>
+
+    <string name="about_version">Version %s</string>
+    <string name="about_copyright">© P3tr0viCh</string>
+
+    <string name="years_zero">years</string>
+    <string name="years_one">year</string>
+    <string name="years_two">years</string>
+    <string name="years_few">years</string>
+    <string name="years_many">years</string>
+    <string name="years_other">years</string>
+
+    <string name="months_zero">months</string>
+    <string name="months_one">month</string>
+    <string name="months_two">months</string>
+    <string name="months_few">months</string>
+    <string name="months_many">months</string>
+    <string name="months_other">months</string>
+
+    <string name="days_zero">days</string>
+    <string name="days_one">day</string>
+    <string name="days_two">days</string>
+    <string name="days_few">days</string>
+    <string name="days_many">days</string>
+    <string name="days_other">days</string>
+
+    <string name="btn_prefs_content">preferences</string>
+    <string name="title_activity_settings">Preferences</string>
+    <string name="pref_datetime_title">Start date of the countdown</string>
+    <string name="pref_app_theme_title">Night theme</string>
+    <string name="pref_app_theme_night_no_entry">Off</string>
+    <string name="pref_app_theme_night_yes_entry">On</string>
+    <string name="pref_app_theme_night_system_entry">System follow</string>
+    <string name="not_set">Not set</string>
+</resources>

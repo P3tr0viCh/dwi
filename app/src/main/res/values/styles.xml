@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme.TextAppearance.TotalDays" parent="@style/TextAppearance.AppCompat.Large">
+        <item name="android:textSize">@dimen/text_size_total_days</item>
+        <item name="android:textColor">@color/blue_gray_700</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.TotalDaysLabel" parent="@style/TextAppearance.AppCompat.Medium">
+        <item name="android:textSize">@dimen/text_size_total_days_label</item>
+        <item name="android:textColor">@color/black_54</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.DateTime" parent="@style/TextAppearance.AppCompat.Medium">
+        <item name="android:textSize">@dimen/text_size_date_time</item>
+        <item name="android:textColor">@color/blue_gray_700</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.DateTimeLabel" parent="@style/TextAppearance.AppCompat.Medium">
+        <item name="android:textSize">@dimen/text_size_date_time_label</item>
+        <item name="android:textColor">@color/black_54</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.DwiDateTime" parent="@style/TextAppearance.AppCompat.Small">
+        <item name="android:textSize">@dimen/text_size_dwi_date_time</item>
+        <item name="android:textColor">@color/black_54</item>
+    </style>
+</resources>

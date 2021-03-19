@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Счётчик дней</string>
+
+    <string name="about_version">Версия %s</string>
+    <string name="about_copyright">© П3тр0виЧъ</string>
+
+    <string name="title_activity_settings">Настройки</string>
+
+    <string name="text_total_days" translatable="false">666</string>
+    <string name="text_total_days_label" translatable="false">дней</string>
+    <string name="text_years" translatable="false">42</string>
+    <string name="text_years_label" translatable="false">годы</string>
+    <string name="text_months" translatable="false">3</string>
+    <string name="text_months_label" translatable="false">месяцы</string>
+    <string name="text_days" translatable="false">12</string>
+    <string name="text_days_label" translatable="false">дни</string>
+    <string name="text_datetime" translatable="false">29 марта 1981</string>
+
+    <plurals name="years">
+        <item quantity="zero">@string/years_zero</item>
+        <item quantity="one">@string/years_one</item>
+        <item quantity="two">@string/years_two</item>
+        <item quantity="few">@string/years_few</item>
+        <item quantity="many">@string/years_many</item>
+        <item quantity="other">@string/years_other</item>
+    </plurals>
+    <plurals name="months">
+        <item quantity="zero">@string/months_zero</item>
+        <item quantity="one">@string/months_one</item>
+        <item quantity="two">@string/months_two</item>
+        <item quantity="few">@string/months_few</item>
+        <item quantity="many">@string/months_many</item>
+        <item quantity="other">@string/months_other</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">@string/days_zero</item>
+        <item quantity="one">@string/days_one</item>
+        <item quantity="two">@string/days_two</item>
+        <item quantity="few">@string/days_few</item>
+        <item quantity="many">@string/days_many</item>
+        <item quantity="other">@string/days_other</item>
+    </plurals>
+
+    <string name="years_zero">лет</string>
+    <string name="years_one">год</string>
+    <string name="years_two">года</string>
+    <string name="years_few">года</string>
+    <string name="years_many">лет</string>
+    <string name="years_other">лет</string>
+
+    <string name="months_zero">месяцев</string>
+    <string name="months_one">месяц</string>
+    <string name="months_two">месяца</string>
+    <string name="months_few">месяца</string>
+    <string name="months_many">месяцев</string>
+    <string name="months_other">месяцев</string>
+
+    <string name="days_zero">дней</string>
+    <string name="days_one">день</string>
+    <string name="days_two">дня</string>
+    <string name="days_few">дня</string>
+    <string name="days_many">дней</string>
+    <string name="days_other">дней</string>
+
+    <string name="btn_prefs_content">настройки</string>
+
+    <!--    Настройки-->
+    <string name="pref_datetime_key" translatable="false">datetime</string>
+    <string name="pref_datetime_title">Дата начала отсчёта</string>
+
+    <string name="pref_app_theme_key" translatable="false">app_theme</string>
+    <string name="pref_app_theme_title">Ночная тема</string>
+    <string name="pref_app_theme_night_no_entry">Выключена</string>
+    <string name="pref_app_theme_night_yes_entry">Включена</string>
+    <string name="pref_app_theme_night_system_entry">Следовать настройкам системы</string>
+    <string name="pref_app_theme_night_no_value" translatable="false">no</string>
+    <string name="pref_app_theme_night_yes_value" translatable="false">yes</string>
+    <string name="pref_app_theme_night_system_value" translatable="false">system</string>
+    <string-array name="pref_app_theme_entries">
+        <item>@string/pref_app_theme_night_no_entry</item>
+        <item>@string/pref_app_theme_night_yes_entry</item>
+        <item>@string/pref_app_theme_night_system_entry</item>
+    </string-array>
+    <string-array name="pref_app_theme_values">
+        <item>@string/pref_app_theme_night_no_value</item>
+        <item>@string/pref_app_theme_night_yes_value</item>
+        <item>@string/pref_app_theme_night_system_value</item>
+    </string-array>
+
+    <string name="not_set">Не установлено</string>
+</resources>
