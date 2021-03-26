@@ -30,7 +30,7 @@ class ActivitySettings : AppCompatActivity() {
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
-        val versionName: String = try {
+        val versionName = try {
             packageManager.getPackageInfo(packageName, 0).versionName ?: "0.0"
         } catch (e: PackageManager.NameNotFoundException) {
             "0.0"

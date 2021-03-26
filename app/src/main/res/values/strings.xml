@@ -63,6 +63,7 @@
     <string name="days_other">дней</string>
 
     <string name="btn_prefs_content">настройки</string>
+    <string name="btn_share_content">поделиться</string>
 
     <!--    Настройки-->
     <string name="pref_datetime_key" translatable="false">datetime</string>

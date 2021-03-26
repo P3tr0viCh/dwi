@@ -27,11 +27,15 @@
     <string name="days_other">days</string>
 
     <string name="btn_prefs_content">preferences</string>
+    <string name="btn_share_content">share</string>
+
     <string name="title_activity_settings">Preferences</string>
+
     <string name="pref_datetime_title">Start date of the countdown</string>
     <string name="pref_app_theme_title">Night theme</string>
     <string name="pref_app_theme_night_no_entry">Off</string>
     <string name="pref_app_theme_night_yes_entry">On</string>
     <string name="pref_app_theme_night_system_entry">System follow</string>
+
     <string name="not_set">Not set</string>
 </resources>
