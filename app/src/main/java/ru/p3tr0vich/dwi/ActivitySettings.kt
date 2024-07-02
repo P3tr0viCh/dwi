@@ -54,7 +54,7 @@ class ActivitySettings : AppCompatActivity() {
                 this
         }
 
-        override fun onDisplayPreferenceDialog(preference: Preference?) {
+        override fun onDisplayPreferenceDialog(preference: Preference) {
             if (preference is DatePreference) {
                 val calendar = Calendar.getInstance()
 

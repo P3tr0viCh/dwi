@@ -16,7 +16,7 @@
     <string name="text_days_label" translatable="false">дни</string>
     <string name="text_datetime" translatable="false">29 марта 1981</string>
 
-    <plurals name="years">
+    <plurals name="years" translatable="false">
         <item quantity="zero">@string/years_zero</item>
         <item quantity="one">@string/years_one</item>
         <item quantity="two">@string/years_two</item>
@@ -24,7 +24,7 @@
         <item quantity="many">@string/years_many</item>
         <item quantity="other">@string/years_other</item>
     </plurals>
-    <plurals name="months">
+    <plurals name="months" translatable="false">
         <item quantity="zero">@string/months_zero</item>
         <item quantity="one">@string/months_one</item>
         <item quantity="two">@string/months_two</item>
@@ -32,7 +32,7 @@
         <item quantity="many">@string/months_many</item>
         <item quantity="other">@string/months_other</item>
     </plurals>
-    <plurals name="days">
+    <plurals name="days" translatable="false">
         <item quantity="zero">@string/days_zero</item>
         <item quantity="one">@string/days_one</item>
         <item quantity="two">@string/days_two</item>

@@ -7,7 +7,7 @@ import android.util.AttributeSet
 import androidx.preference.DialogPreference
 import java.util.*
 
-class DatePreference(context: Context?, attrs: AttributeSet) : DialogPreference(context, attrs) {
+class DatePreference(context: Context, attrs: AttributeSet) : DialogPreference(context, attrs) {
 
     override fun onGetDefaultValue(a: TypedArray, index: Int): Any {
         return a.getInt(index, 0)

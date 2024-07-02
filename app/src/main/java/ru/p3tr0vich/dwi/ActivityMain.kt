@@ -3,12 +3,14 @@ package ru.p3tr0vich.dwi
 import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import androidx.activity.result.ActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.preference.PreferenceManager
 import ru.p3tr0vich.dwi.databinding.ActivityMainBinding
-import java.util.*
+import java.util.Calendar
+import java.util.Date
 
 class ActivityMain : AppCompatActivity() {
 
@@ -27,6 +29,7 @@ class ActivityMain : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         binding = ActivityMainBinding.inflate(layoutInflater)
+
         setContentView(binding.root)
 
         supportActionBar?.hide()
